@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6 </title>
+    <script>
+//Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+
+    var circunferencia = parseFloat('0.00');
+    var diametro = parseFloat('d = 2.r');
+    var area = parseFloat('3.14*r²')
+    
+    function msn(){
+        circunferencia = parseFloat(prompt("Qual a circunferencia do círculo: "));
+        
+        alert("a área do circulo é: " + (3.14*Math.pow(circunferencia,2)));
+     
+    }
+    </script>
+</head>
+<body>
+    <button onclick="msn()" style="background-color:blue; color: white;">
+        click me
+    </button>
+</body>
+</html>
